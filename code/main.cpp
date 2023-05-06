@@ -4,6 +4,7 @@
 #include "player.h"
 
 int main(){
+  //main program
 int minNumber = 1;
 int maxNumber = 10000;
 int maxAttempts = 5;
@@ -32,5 +33,6 @@ for (int i = 1; i <= maxAttempts; i++) {
 if (!isGuessCorrect) {
     std::cout << "Sorry, you have used all your attempts. The number was"<< cryptGame.getRandomNumber() << std::
     }
-  return 0;
+// end of program
+  return 0; //return value 0 for successful completion
 }
