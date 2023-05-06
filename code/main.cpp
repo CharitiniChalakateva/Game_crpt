@@ -9,13 +9,13 @@ int minNumber = 1;
 int maxNumber = 10000;
 int maxAttempts = 5;
 
-std::cout << "Welcome to the Game Crypto! The objective is to guess the number thar your opponent chose." << std::endl;
+std::cout << "Welcome to the CRYPTO GAME! Your objective is to guess the number thar your opponent chose." << std::endl;
 std::cout << "You will have"<<maxAttempts<< "attempts to guess the number which is between"<< minNumber << "and"<< maxNumber<<"."
 << std::endl;
 
 // Initialization of the game
 Game cryptGame(minNumber, maxNumber);
-cryptGame.selectRandomNumber();
+cryptGame.selectRandomNumber(); // randomly selects a number between the minimum and maximum number set in the game object
 
 // Play the game
 Player player;

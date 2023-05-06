@@ -14,14 +14,14 @@ void Game::selectRandomNumber()
    m_randomNumber = std::rand() % (m_max - m_min + 1) + m_min;
 }
 
-bool Game::checkGuess(int guess) {
-if (guess == m_randomNumber) {
+bool Game::checkGuess(int guess) { // Guess a number 
+if (guess == m_randomNumber) { // If the guessed number is equal to the secret number 
     std::cout << "Correct!" << std::endl;
   return true;
-} else if (guess < m_randomNumber) {
+} else if (guess < m_randomNumber) { // If the guessed number is lower that the secret number 
     std::cout << "Too low." << std::endl;
 } else {
-    std::cout << "Too high." << std::endl;
+    std::cout << "Too high." << std::endl; // If the guessed number is higher than the secret number 
    }
   return false;
 }
