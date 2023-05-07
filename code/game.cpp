@@ -14,7 +14,7 @@ void Game::selectRandomNumber()
    m_randomNumber = std::rand() % (m_max - m_min + 1) + m_min;
 }
 
-bool Game::checkGuess(int guess) { // Guess a number 
+bool Game::checkGuess(int guess) { // Guess a number between the nubers that where given 1 - 10000
 if (guess == m_randomNumber) { // If the guessed number is equal to the secret number 
     std::cout << "Correct!" << std::endl;
   return true;
