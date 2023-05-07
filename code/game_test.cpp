@@ -10,6 +10,6 @@ protected:
 TEST_F(GameTest, test_checkGuess) {
     cryptGame.selectRandomNumber();
     ASSERT_TRUE(cryptGame.checkGuess(cryptGame.getRandomNumber())); // This is the correct guess
-    ASSERT_FALSE(cryptGame.checkGuess(cryptGame.getRandomNumber() - 1)); // Invalid guess - too low
-    ASSERT_FALSE(cryptGame.checkGuess(cryptGame.getRandomNumber() + 1)); // Invalid guess - too high
+    ASSERT_FALSE(cryptGame.checkGuess(cryptGame.getRandomNumber() - 1)); // Invalid guess - Too low
+    ASSERT_FALSE(cryptGame.checkGuess(cryptGame.getRandomNumber() + 1)); // Invalid guess - Too high
 }
