@@ -1,7 +1,7 @@
 # Game_crpt
 This is a game called ''Crypto''. 
 
-This game consists of two players who secretly choose a number from 1 to 100. The players then take turns trying to guess their opponent's number. Each time you make an attempt, your opponent gives you one of the following responses:
+This game consists of two players who secretly choose a number from 1 to 10000. The players then take turns trying to guess their opponent's number. Each time you make an attempt, your opponent gives you one of the following responses:
              
  "You better try again, my number is higher than you guessed"
              
