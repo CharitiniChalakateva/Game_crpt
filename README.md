@@ -31,5 +31,5 @@ After the values are stored in the "range" and "numAttempts" variables, we can u
 -> In the 'player.h' exists the #ifndef PLAYER_H statement. The #ifndef PLAYER_H means "if string PLAYER_H is not defined", then the #define PLAYER_H defines string PLAYER_H. Together these two pre-define a compilation delimiter that makes sure that the contents of the file will not be repeated if the PLAYER_H string is already defined, in order to avoid name collisions during compilation.
 
                       If you want to run the game:
-Open the terminal on your computer, go to the code folder and run the 'make' command to compile the code. 
+Open the terminal in your computer, and go to the code folder and run the 'make' command to compile the code. 
 After compiling, you can run the game with the command './game'.
