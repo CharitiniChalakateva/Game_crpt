@@ -20,7 +20,7 @@ void play(int minNumber, int maxNumber, int maxAttempts) {
     for (int i = 1; i <= maxAttempts; i++) {
         std::cout <<"Attempt " << i << ": ";
         int guess = player.makeGuess();
-        isGuessCorrect == cryptGame.checkGuess(guess);
+        isGuessCorrect ==cryptGame.checkGuess(guess);
         if (isGuessCorrect) {
             std::cout << "Congratulations, you guessed the number in " << i << " attempts!" << std::endl;
             break;
