@@ -1,5 +1,6 @@
 #ifndef GAME_H //used to avoid errors related to multiple inclusion of a header file
 #define GAME_H
+#include "stopplayer.h"
 
 class Game {
 
