@@ -11,7 +11,7 @@ void play(int minNumber, int maxNumber, int maxAttempts) {
 
     // Initialization of the game
     Game cryptGame(minNumber, maxNumber);
-    cryptGame.selectRandomNumber(); // randomly selects a number between the minimum and maximum number set in the game object
+    cryptGame.selectRandomNumber(); // random selectation a number between the minimum and maximum number set in the game object
 
     // Play the game
     StopPlayer player; //Creates a new object of the StopPlayer class and it's used to store player information during gameplay.
@@ -20,7 +20,7 @@ void play(int minNumber, int maxNumber, int maxAttempts) {
     for (int i = 1; i <= maxAttempts; i++) {
         std::cout <<"Attempt " << i << ": ";
         int guess = player.makeGuess();
-        isGuessCorrect = cryptGame.checkGuess(guess);
+        isGuessCorrect == cryptGame.checkGuess(guess);
         if (isGuessCorrect) {
             std::cout << "Congratulations, you guessed the number in " << i << " attempts!" << std::endl;
             break;
