@@ -23,6 +23,9 @@ The object of the game is to guess your opponent's number in as few attempts as 
 
 (V) stop_player.h: the file "stopplayer.h" contains the declaration of the StopPlayer class, which represents the player in the game. It contains private data members for the player's name, his grade, the number of attempts he has made, and the secret number he must guess.
 
+(VI) game_settings.cpp: This code asks the user to enter the range of the secret number and the number of attempts they wish to have during the game.
+After the values are stored in the "range" and "numAttempts" variables, we can use them in the rest of the game logic.
+
 ->In the 'game.h' exists the #ifndef GAME_H statement. This belongs to the Conditional Compilation technique, which is used to avoid errors related to multiple inclusion of a header file in different code files.
 
 -> In the 'player.h' exists the #ifndef PLAYER_H statement. The #ifndef PLAYER_H means "if string PLAYER_H is not defined", then the #define PLAYER_H defines string PLAYER_H. Together these two pre-define a compilation delimiter that makes sure that the contents of the file will not be repeated if the PLAYER_H string is already defined, in order to avoid name collisions during compilation.
