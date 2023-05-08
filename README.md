@@ -14,7 +14,9 @@ The object of the game is to guess your opponent's number in as few attempts as 
                        The details of the game :
 
 (I) main.cpp: the file that contains the main function and is responsible for starting the game.
+
 (II) game.cpp: the file that contains the functions to initialize the game, pick a random number, and check the player's attempts.
+
 (III) game.h: the header file that contains the function declarations found in game.cpp.
 (IV) player.cpp: the file that contains the function to input the player's effort.
 
