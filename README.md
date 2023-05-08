@@ -21,6 +21,7 @@ The object of the game is to guess your opponent's number in as few attempts as 
 
 (IV) player.cpp: the file that contains the function to input the player's effort.
 
+(V) stop_player.h: the file "stopplayer.h" contains the declaration of the StopPlayer class, which represents the player in the game. It contains private data members for the player's name, his grade, the number of attempts he has made, and the secret number he must guess.
 
 ->In the 'game.h' exists the #ifndef GAME_H statement. This belongs to the Conditional Compilation technique, which is used to avoid errors related to multiple inclusion of a header file in different code files.
 
