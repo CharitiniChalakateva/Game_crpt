@@ -10,6 +10,7 @@ public:
   int getRandomNumber() const; //returns the number randomly selected by the function
 
 private:
+  //private members of the fuction
   int m_min;
   int m_max;
   int m_randomNumber;

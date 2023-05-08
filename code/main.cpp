@@ -2,6 +2,7 @@
 #include <string>
 #include "game.h"
 #include "player.h"
+#include "stopplayer.h"
 
 void play(int minNumber, int maxNumber, int maxAttempts) {
     // Welcome message
@@ -13,7 +14,7 @@ void play(int minNumber, int maxNumber, int maxAttempts) {
     cryptGame.selectRandomNumber(); // randomly selects a number between the minimum and maximum number set in the game object
 
     // Play the game
-    Player player; //Creates a new object of the Player class and it's used to store player information during gameplay.
+    StopPlayer player; //Creates a new object of the StopPlayer class and it's used to store player information during gameplay.
     bool isGuessCorrect = false;
 
     for (int i = 1; i <= maxAttempts; i++) {
